@@ -1,10 +1,10 @@
 # qiitaStockExtension
-chorome extension for japanees website Qiita<br>
+Chrome extension for japanees website Qiita<br>
 http://qiita.com/<br>
 Qiitaの拡張なので日本語で書く。<br>
 <br>
 ##　概要<br>
-Qiitaのいいねボタンをストックボタンに変更するchoromeの拡張。<br>
+Qiitaのいいねボタンをストックボタンに変更するChromeの拡張。<br>
 <br>
 
 ## 以下の手順で試せる<br>
