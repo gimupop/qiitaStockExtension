@@ -1,7 +1,8 @@
 {
      "manifest_version": 2,
-     "name": "Test Extention",
-     "version": "1.3",
+     "name": "Qiita Like Change Stock",
+     "version": "1.0",
+     "description":"Qiitaのいいねボタンの表記をストックにして、機能をストック+いいねにする",
      "content_scripts": [
           {
                "matches": ["http://qiita.com/*"],
