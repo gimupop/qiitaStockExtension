@@ -1,8 +1,8 @@
 {
      "manifest_version": 2,
      "name": "Qiita Like Change Stock",
-     "version": "1.0",
-     "description":"Qiitaのいいねボタンの表記をストックにして、機能をストック+いいねにする",
+     "version": "1.1",
+     "description":"Qiitaのいいねボタンとストックボタンを入れ替えるエクステンション",
      "icons":{"128":"icon128.png",
               "48":"icon48.png",
               "16":"icon16.png"
