@@ -14,7 +14,7 @@ $(function() {
     };
 
     //いいね→ストックの変更
-    var isStock = $(".col-sm-9 .js-stockButton.StockButton.StockButton--stocked");
+    var isStock = $(".col-sm-9 .StockButton__unstock");
 
     if (isStock.length) {
         var stock = $('<button class="p-button liked"><span class="fa fa-fw fa-check"></span><span>ストック</span></button>');
@@ -101,8 +101,9 @@ $(function() {
         });
 
 
-    $('.u-flex.u-space-between .button_to .StockButton__stock').attr("style", "display:none");
-    $('.u-flex.u-space-between .button_to .StockButton__unstock').attr("style", "display:none");
+    $('.u-flex.u-space-between .StockButton__stock').attr("style", "display:none");
+    $('.u-flex.u-space-between .StockButton__unstock').attr("style", "display:none");
+    $('.u-flex.u-space-between .StockButton.StockButton--stocked').attr("style", "display:none");
     $('.u-flex.u-space-between .ArticleAsideHeader__stock').append(iine);
 
 });
