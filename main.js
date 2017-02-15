@@ -104,6 +104,7 @@ $(function() {
     $('.u-flex.u-space-between .StockButton__stock').attr("style", "display:none");
     $('.u-flex.u-space-between .StockButton__unstock').attr("style", "display:none");
     $('.u-flex.u-space-between .StockButton.StockButton--stocked').attr("style", "display:none");
+    $('.u-flex.u-space-between .StockButton').attr("style", "display:none");
     $('.u-flex.u-space-between .ArticleAsideHeader__stock').append(iine);
 
 });
